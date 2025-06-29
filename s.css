@@ -37,6 +37,7 @@ form input[type=submit] {
     border: none;
     background: rgb(149, 149, 192);
     height: 30px;
+    color: white;
 
 }
 form input[type=range] {
@@ -56,7 +57,7 @@ form input[type=range] {
 form input[type=submit]:hover{
     transform: translateY(-3px);
     transition: 1s;
-    background-color: rgb(82, 206, 105);
+    background-color: rgb(12, 46, 18);
 }
 form input[type=file] {
     width: 100%;
