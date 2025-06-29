@@ -9,9 +9,6 @@ body{
     justify-content: space-between;
     display: flex;
     align-items: center;
-    
-    /* background-color: rgb(168, 180, 176); */
-    
 }
 .style p{
     margin: 5px;

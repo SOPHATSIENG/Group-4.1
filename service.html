@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>hfdjf</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
+    <link rel="stylesheet" href="/s.css">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/047/656/219/non_2x/abstract-logo-design-for-any-corporate-brand-business-company-vector.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <form action="input">
+      <label for="text">Name:</label><br />
+      <input 
+      type="text" 
+      name="text" 
+      id="text" 
+      placeholder="Enter your name : " />
+      <br /><br />
+
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email :"
+      /><br /><br />
+
+      <label for="password"> Password:</label> <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter your password :"
+      />
+      <br /><br />
+
+      <label for="gender">gender</label><br /><br />
+      <input type="radio" name="radio" id="radio" /> Male
+      <input type="radio" name="radio" id="radio" />Female <br /><br />
+
+      <label for="checkbox">Subject</label><br /><br />
+      <input type="checkbox" name="Subject" /> HTML
+      <input type="checkbox" name="Subject" /> CSS
+      <input type="checkbox" name="Subject" /> PL
+      <input type="checkbox" name="Subject" /> Algorithm
+      <input type="checkbox" name="Subject" /> Design
+      <input type="checkbox" name="Subject" /> English <br /><br />
+
+      <label for="date">Birth of date</label><br /><br />
+      <input type="date" name="Date" /><br /><br />
+
+      <label for="time">Time</label><br /><br />
+      <input type="time" name="time" /><br /><br />
+
+      <select name="country" id="country">
+        <option value="Cambodia">Cambodia</option>
+        <option value="UK">UK</option>
+        <option value="Chines">Chines</option>
+        <option value="Japan">Japan</option>
+      </select><br><br>
+
+      <textarea name="Message" id="Message" placeholder="Enter your Message"></textarea><br><br>
+
+      <label for="file">Choose file</label><br><br>
+      <input type="file" name="file" id="file"><br><br>
+
+      <label for="background colorr">CHoose color</label>
+      <input type="color" name="color"><br><br>
+      
+      <label for="skill">skill :</label><br><br>
+      <input type="range" name="range"><br><br>
+
+      <input type="submit" value="submit" style="padding: 5px;">
+
+  </body>
 </html>
